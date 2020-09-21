@@ -1,4 +1,4 @@
-# Lab 5: Concurrency in C
+# Concurrency Lab 3
 
 > If you're stuck look at docs on [man7.org](http://man7.org/linux/man-pages/man7/pthreads.7.html)
 
