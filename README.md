@@ -2,7 +2,22 @@
 
 > If you're stuck look at docs on [man7.org](http://man7.org/linux/man-pages/man7/pthreads.7.html)
 
-## Question 1 - Hello World from pthreads
+## Using the lab sheet
+
+There are two ways to use the lab sheet, you can either:
+
+- [create a new repo from this template](https://github.com/UoB-CSA/intro-to-go-lab-2/generate) - **this is the recommended way**
+- download a [zip file](https://github.com/UoB-CSA/intro-to-go-lab-2/archive/master.zip)
+
+Each question is rated to help you balance your work:
+
+- :red_circle::white_circle::white_circle::white_circle::white_circle: - Easy, strictly necessary.
+- :red_circle::red_circle::white_circle::white_circle::white_circle: - Medium, still necessary.
+- :red_circle::red_circle::red_circle::white_circle::white_circle: - Hard, necessary if you're aiming for higher marks.
+- :red_circle::red_circle::red_circle::red_circle::white_circle: - Hard, useful for coursework extensions.
+- :red_circle::red_circle::red_circle::red_circle::red_circle: - Hard, beyond what you need for any part of the coursework.
+
+## Question 1 - Hello World from pthreads :red_circle::red_circle::red_circle::red_circle::red_circle:
 
 Open `hello.c`. It's a sample Hello World program that prints `"Hello World"` using a pthread.
 
@@ -56,7 +71,7 @@ Be careful with your memory management. Make sure that the value the argument po
 
 </details>
 
-## Question 2 - C Quiz
+## Question 2 - C Quiz :red_circle::red_circle::red_circle::red_circle::red_circle:
 
 Open `quiz.c`. It's the quiz program from Lab 3. However, it is not complete. The skeleton you are given asks all the questions using pthreads and also starts the timer thread, but when 5s have passed the program does not terminate like it should.
 
@@ -92,7 +107,7 @@ Your timer should notify your condition variable when the 5s have elapsed.
 
 </details>
 
-## Question 3 - Synchronous channels
+## Question 3 - Synchronous channels :red_circle::red_circle::red_circle::red_circle::red_circle:
 
 ### Question 3a
 
